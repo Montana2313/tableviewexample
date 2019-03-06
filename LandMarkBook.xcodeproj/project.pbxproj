@@ -13,6 +13,10 @@
 		EEECA043222FB0FA0085AA44 /* LandMarkBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEECA041222FB0FA0085AA44 /* LandMarkBook.xcdatamodeld */; };
 		EEECA045222FB1240085AA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEECA044222FB1240085AA44 /* Assets.xcassets */; };
 		EEECA048222FB1240085AA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEECA046222FB1240085AA44 /* LaunchScreen.storyboard */; };
+		EEECA052222FB3500085AA44 /* bogaz.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EEECA04F222FB34E0085AA44 /* bogaz.JPG */; };
+		EEECA053222FB3500085AA44 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEECA050222FB34F0085AA44 /* img2.jpg */; };
+		EEECA054222FB3500085AA44 /* erciyes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEECA051222FB3500085AA44 /* erciyes.jpg */; };
+		EEECA057222FBA870085AA44 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEECA056222FBA870085AA44 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EEECA044222FB1240085AA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEECA047222FB1240085AA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEECA049222FB1240085AA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEECA04F222FB34E0085AA44 /* bogaz.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bogaz.JPG; sourceTree = "<group>"; };
+		EEECA050222FB34F0085AA44 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		EEECA051222FB3500085AA44 /* erciyes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = erciyes.jpg; sourceTree = "<group>"; };
+		EEECA056222FBA870085AA44 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		EEECA039222FB0F90085AA44 /* LandMarkBook */ = {
 			isa = PBXGroup;
 			children = (
+				EEECA055222FB3C10085AA44 /* image */,
 				EEECA03A222FB0F90085AA44 /* AppDelegate.swift */,
 				EEECA03C222FB0F90085AA44 /* ViewController.swift */,
-				EEECA03E222FB0F90085AA44 /* Main.storyboard */,
 				EEECA044222FB1240085AA44 /* Assets.xcassets */,
 				EEECA046222FB1240085AA44 /* LaunchScreen.storyboard */,
 				EEECA049222FB1240085AA44 /* Info.plist */,
 				EEECA041222FB0FA0085AA44 /* LandMarkBook.xcdatamodeld */,
+				EEECA056222FBA870085AA44 /* SecondViewController.swift */,
+				EEECA03E222FB0F90085AA44 /* Main.storyboard */,
 			);
 			path = LandMarkBook;
+			sourceTree = "<group>";
+		};
+		EEECA055222FB3C10085AA44 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				EEECA04F222FB34E0085AA44 /* bogaz.JPG */,
+				EEECA051222FB3500085AA44 /* erciyes.jpg */,
+				EEECA050222FB34F0085AA44 /* img2.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEECA054222FB3500085AA44 /* erciyes.jpg in Resources */,
 				EEECA048222FB1240085AA44 /* LaunchScreen.storyboard in Resources */,
+				EEECA053222FB3500085AA44 /* img2.jpg in Resources */,
 				EEECA045222FB1240085AA44 /* Assets.xcassets in Resources */,
 				EEECA040222FB0F90085AA44 /* Main.storyboard in Resources */,
+				EEECA052222FB3500085AA44 /* bogaz.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEECA057222FBA870085AA44 /* SecondViewController.swift in Sources */,
 				EEECA03D222FB0F90085AA44 /* ViewController.swift in Sources */,
 				EEECA03B222FB0F90085AA44 /* AppDelegate.swift in Sources */,
 				EEECA043222FB0FA0085AA44 /* LandMarkBook.xcdatamodeld in Sources */,
